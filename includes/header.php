@@ -139,23 +139,11 @@ include ('includes/notification.php');
                         </ul>
                     </li>
 
-                    <li>
+                    <l                            i>
                          <a class="parent" href="javascript:void(0)"><i class="fa fa-print"> </i> <?php echo $ReportsGraphs;?><span class="fa arrow"></a>
                          <ul class="nav nav-second-level" >
                                 <li>
                                     <a <?php ActiveClass("index.php?page=IncomeVsExpense");?> id="subitem" href="index.php?page=IncomeVsExpense"><i class="fa fa-caret-right"> </i> <?php echo $IncomeVsExpense;?></a>
-                                </li>
-                                <li>
-                                    <a <?php ActiveClass("index.php?page=IncomeCalender");?> id="subitem" href="index.php?page=IncomeCalender"><i class="fa fa-caret-right"> </i> <?php echo $IncomeCalender;?></a>
-                                </li>
-                                <li>
-                                    <a <?php ActiveClass("index.php?page=ExpenseCalender");?> id="subitem" href="index.php?page=ExpenseCalender"><i class="fa fa-caret-right"> </i> <?php echo $ExpenseCalender;?></a>
-                                </li>
-                                <li>
-                                    <a <?php ActiveClass("index.php?page=AllIncomeReports");?> id="subitem" href="index.php?page=AllIncomeReports"><i class="fa fa-caret-right"></i> <?php echo $IncomeReportsM ;?></a>
-                                </li>
-                                <li>
-                                    <a <?php ActiveClass("index.php?page=AllExpenseReports");?> id="subitem" href="index.php?page=AllExpenseReports"><i class="fa fa-caret-right"></i> <?php echo $ExpenseReportsM;?></a>
                                 </li>
                                 
                         </ul>

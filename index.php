@@ -27,43 +27,40 @@ function ActiveClass($requestUri)
 
 
  //Link to page
-if (isset($_GET['page']) && $_GET['page'] == 'Transaction') {
-            $page = 'Transaction';
-        } else if (isset($_GET['page']) && $_GET['page'] == 'AssetReport') {
-            $page = "AssetReport";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageBudget') {
-            $page = "ManageBudget";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageIncomeCategory') {
-            $page = "ManageIncomeCategory";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageExpenseCategory') {
-            $page = "ManageExpenseCategory";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageAccount') {
-            $page = "ManageAccount";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageIncome') {
-            $page = "ManageIncome";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'Settings') {
-            $page = "Settings";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ExpenseReport') {
-            $page = "ExpenseReport";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ManageExpense') {
-            $page = "ManageExpense";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ReportPdf') {
-            $page = "ReportPdf";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'IncomeVsExpense') {
-            $page = "IncomeVsExpense";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'IncomeCalender') {
-            $page = "IncomeCalender";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'AllIncomeReports') {
-            $page = "AllIncomeReports";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'AllExpenseReports') {
-            $page = "AllExpenseReports";    
-        } else if (isset($_GET['page']) && $_GET['page'] == 'ExpenseCalender') {
-            $page = "ExpenseCalender";
-        } else if (isset($_GET['page']) && $_GET['page'] == 'siteSettings') {
-            $page = "siteSettings";
-        } else {
-            $page = 'dashboard';
-        }
+ if (isset($_GET['page']) && $_GET['page'] == 'Transaction') {
+    $page = 'Transaction';
+} else if (isset($_GET['page']) && $_GET['page'] == 'AssetReport') {
+    $page = "AssetReport";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageBudget') {
+    $page = "ManageBudget";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageIncomeCategory') {
+    $page = "ManageIncomeCategory";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageExpenseCategory') {
+    $page = "ManageExpenseCategory";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageAccount') {
+    $page = "ManageAccount";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageIncome') {
+    $page = "ManageIncome";
+} else if (isset($_GET['page']) && $_GET['page'] == 'Settings') {
+    $page = "Settings";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ExpenseReport') {
+    $page = "ExpenseReport";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ManageExpense') {
+    $page = "ManageExpense";
+} else if (isset($_GET['page']) && $_GET['page'] == 'ReportPdf') {
+    $page = "ReportPdf";
+} else if (isset($_GET['page']) && $_GET['page'] == 'IncomeVsExpense') {
+    $page = "IncomeVsExpense";
+} else if (isset($_GET['page']) && $_GET['page'] == 'AllIncomeReports') {
+    $page = "AllIncomeReports";
+} else if (isset($_GET['page']) && $_GET['page'] == 'AllExpenseReports') {
+    $page = "AllExpenseReports";    
+} else if (isset($_GET['page']) && $_GET['page'] == 'siteSettings') {
+    $page = "siteSettings";
+} else {
+    $page = 'dashboard';
+}
+
 
 
 //get global notification
